@@ -4,6 +4,21 @@
     background-color: #ffffff;
 }
 
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div{
+    display: flex;
+}
+
+.w3-container{
+    width: 1158px;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -54,6 +69,8 @@
 
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
@@ -62,6 +79,7 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 .order-button {
@@ -73,6 +91,10 @@
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .order-button:hover {
@@ -81,6 +103,20 @@
 
 .order-button:focus {
     background-color: #404bbf;
+}
+
+.feature{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.feature-ul{
+    display: flex;
+    gap: 24px;
+}
+
+.feature-list{
+    width: calc((100%-72px)/4);
 }
 
 .feature-list-head {
