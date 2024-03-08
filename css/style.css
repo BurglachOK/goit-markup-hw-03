@@ -5,8 +5,6 @@
 }
 
 .section{
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 img{
@@ -21,11 +19,10 @@ img{
     display: flex;
 }
 
-.w3-container{
+.container{
     width: 1158px;
     margin: 0;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .logo {
@@ -36,10 +33,21 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.logo-menu{
+    display: flex;
+    align-items: center;
 }
 
 .studio {
     color: #2e2f42;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
 }
 
 .menu-list {
@@ -48,6 +56,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .menu-list:hover {
@@ -78,8 +87,8 @@ img{
 
 .hero {
     background-color: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
+    max-width: 496px;
 }
 
 .hero-title {
@@ -92,6 +101,10 @@ img{
 }
 
 .order-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -100,10 +113,6 @@ img{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
 }
 
 .order-button:hover {
