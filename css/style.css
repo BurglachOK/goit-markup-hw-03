@@ -12,7 +12,7 @@ img{
 }
 
 .header{
-    border-bottom: 1px, solid, #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-div{
@@ -23,6 +23,10 @@ img{
     width: 1158px;
     margin: 0;
     padding: 0 15px;
+}
+
+.images{
+    display: block;
 }
 
 .logo {
