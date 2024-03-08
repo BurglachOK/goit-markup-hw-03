@@ -94,7 +94,6 @@ img{
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
-    max-width: 496px;
 }
 
 .hero-title {
@@ -131,7 +130,9 @@ img{
 }
 
 .feature-head{
-    overflow: hidden;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
 }
 
 .feature{
@@ -233,6 +234,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .project-cards-ul{
