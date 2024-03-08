@@ -136,7 +136,7 @@ img{
     background-color: #404bbf;
 }
 
-.feature-head{
+.visually-hidden{
     visibility: hidden;
     pointer-events: none;
     position: absolute;
