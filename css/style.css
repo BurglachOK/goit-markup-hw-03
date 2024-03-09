@@ -244,6 +244,7 @@ section {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    align-items: center;
 }
 
 .key-people-names {
@@ -257,11 +258,23 @@ section {
     text-align: center;
 }
 
-.key-people-rolesr {
+.key-people-roles {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-align: center;
+}
+
+.project-h {
+    color: #2E2F42;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .project-cards-ul {
