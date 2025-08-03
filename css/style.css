@@ -40,6 +40,7 @@ section {
 
 .header>.container {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -69,7 +70,6 @@ section {
 .mail-phone {
     font-style: normal;
     display: flex;
-    padding: 24px 0;
     margin-left: auto;
 }
 
